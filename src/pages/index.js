@@ -1,19 +1,14 @@
-import React from "react"
-import Head from "../components/Head"
+import React from "react";
+import Layout from "../components/layout";
 
-// styles
-
-// data
-
-// markup
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
-      <Head />
-      <h1>Home Page</h1>
-    </main>
-  )
-}
+    <Layout>
+      <title>홈</title>
 
-export default IndexPage
+      <h1>홈 페이지</h1>
+    </Layout>
+  );
+};
+
+export default IndexPage;
